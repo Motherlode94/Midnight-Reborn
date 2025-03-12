@@ -1,0 +1,1210 @@
+fileFormatVersion: 2
+guid: 9b347a3f699f0ac40b56bd8699b5afee
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftLowerLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Vec_Mech_RigOff(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mesh
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: upperbody
+      parentName: Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: head
+      parentName: upperbody
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: neck
+      parentName: upperbody
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: chest
+      parentName: upperbody
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_clavicle
+      parentName: upperbody
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_clavicle
+      parentName: upperbody
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_shoulder
+      parentName: upperbody
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_shoulder
+      parentName: upperbody
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_elbow
+      parentName: upperbody
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_elbow
+      parentName: upperbody
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_hand
+      parentName: upperbody
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_hand
+      parentName: upperbody
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: lowerbody
+      parentName: Mesh
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: hips
+      parentName: lowerbody
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_upperleg
+      parentName: lowerbody
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_upperleg
+      parentName: lowerbody
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_lowerleg
+      parentName: lowerbody
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_lowerleg
+      parentName: lowerbody
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_ankle
+      parentName: lowerbody
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_ankle
+      parentName: lowerbody
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: l_ball
+      parentName: lowerbody
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: r_ball
+      parentName: lowerbody
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: geo_c_cargo_03
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_jetpack_intakes_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_elbow_attach_weapon_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_mid_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_upperShin_armor_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: geo_r_ball_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_jetpack_intakes_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_shoulder
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_elbow_attach_weapon_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_mid_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_lowerleg_knee_armor_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_ball_03
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_attach_radio
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_shoulder_armor_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_elbow_attach_weapon_03
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_mid_03
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_upperleg
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_lowerleg_knee_armor_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_ball_04
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_attach_radio
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_shoulder_armor_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_elbow_attach_weapon_04
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_upperleg_armor_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_lowerleg_knee_armor_03
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_ball_05
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_chest_attach_weapon_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_shoulder_armor_03
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_elbow_attach_weapon_05
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_hand
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_upperleg_armor_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_lowerleg_knee_armor_04
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_chest_attach_weapon_02_Launcher_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -81.40449, y: 484.35565, z: 22.026733}
+      rotation: {x: 0.034450006, y: -0.06002179, z: 0.840798, w: 0.53690714}
+      scale: {x: 99.99999, y: 100, z: 100}
+    - name: geo_l_shoulder_armor_04
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_elbow_attach_weapon_06
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_hand_armor_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_upperleg_armor_03
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_lowerleg_knee_armor_05
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_chest_attach_weapon_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_shoulder_armor_05
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_elbow_attach_weapon_06_Empty
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_hand_armor_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_upperleg_armor_04
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_lowerleg_knee_armor_06
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_chest_attach_weapon_03
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_shoulder_armor_06
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_hand_armor_03
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_upperleg_armor_05
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_lowerleg_knee_armor_07
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_chest_attach_weapon_03_Empty
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_shoulder_armor_07
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_elbow
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_hand_armor_04
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_c_head_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_lowerleg_shin_armor_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_chest_attach_weapon_04
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_shoulder_armor_07_energyShields
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_elbow_armor_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_thumb_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_c_head_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_upperleg
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_lowerleg_shin_armor_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_chest_attach_weapon_05
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_shoulder_armor_08_heavy
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_elbow_armor_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_thumb_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_c_head_03
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_upperleg_armor_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_lowerleg_shin_armor_03
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_chest_attach_weapon_06
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_shoulder_armor_09
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_elbow_armor_03
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_index_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_c_head_04
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_upperleg_armor_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_lowerleg_shin_armor_04
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_chest_attach_weapon_06_Launcher
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_elbow_armor_04
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_index_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_c_head_05
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_upperleg_armor_03
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_lowerleg_shin_armor_05
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_chest_attach_weapon_06_Launcher_Emptry
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_shoulder
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_elbow_armor_05
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_index_03
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_c_head_06
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_upperleg_armor_04
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_chest_attach_weapon_07
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_shoulder_armor_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_elbow_attach_weapon_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_mid_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_c_head_07
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_ankle
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_upperleg_armor_05
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_chest_attach_weapon_08
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_shoulder_armor_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_elbow_attach_weapon_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_mid_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_c_head_08
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_ankle_heel_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_chest_attach_weapon_08_Empty
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_shoulder_armor_03
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_elbow_attach_weapon_03
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_mid_03
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_lowerleg
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_ankle_heel_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_chest_attach_weapon_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_shoulder_armor_04
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_elbow_attach_weapon_04
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_c_neck
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_upperShin_armor_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_ankle_heel_03
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_chest_attach_weapon_01_Launcher_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: 81.38135, y: 484.27176, z: 22.01593}
+      rotation: {x: 0.63697577, y: 0.3552905, z: 0.40401083, w: 0.5520923}
+      scale: {x: 100.00001, y: 100.00001, z: 100.00001}
+    - name: geo_r_shoulder_armor_05
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_elbow_attach_weapon_05
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_lowerleg_knee_armor_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_c_hips
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_c_collar_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_chest_attach_weapon_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_shoulder_armor_06
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_elbow_attach_weapon_06
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_lowerleg_knee_armor_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_ankle
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_c_hips_rotor
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_c_collar_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_chest_attach_weapon_03
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_shoulder_armor_07
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_elbow_attach_weapon_06_Empty
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_lowerleg_knee_armor_03
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_ankle_heel_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_c_hips_armor_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_c_collar_03
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_chest_attach_weapon_03_Empty
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_shoulder_armor_07_energyShields
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_lowerleg_knee_armor_04
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_ankle_heel_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_hand
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_chest_attach_weapon_04
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_c_hips_armor_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_c_chest
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_shoulder_armor_08_heavy
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_lowerleg_knee_armor_05
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_ankle_heel_03
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_c_hips_armor_03
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_chest_attach_weapon_05
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_hand_armor_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_shoulder_armor_09
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_c_cockpit_door_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_lowerleg_knee_armor_06
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_c_hips_belt_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_chest_attach_weapon_06
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_hand_armor_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_c_cockpit_door_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_lowerleg_knee_armor_07
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_ball_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_c_hips_belt_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_chest_attach_weapon_06_Launcher
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_elbow
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_hand_armor_03
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_c_cockpit_door_03
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_lowerleg_shin_armor_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_ball_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_c_hips_belt_03
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_chest_attach_weapon_06_Launcher_Empty
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_L_elbow_armor_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_hand_armor_04
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_c_cockpit_door_saddlebags
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_lowerleg_shin_armor_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_ball_03
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_lowerleg_shin_armor_03
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_c_hips_belt_04
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_chest_attach_weapon_07
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_L_elbow_armor_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_thumb_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_c_exhaust
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_ball_04
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_c_hips_belt_04_saddlebags
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_L_elbow_armor_03
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_thumb_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_exhaust
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_lowerleg_shin_armor_04
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_ball_05
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_c_cargo_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_clavicle
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_L_elbow_armor_04
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_index_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_exhaust
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_lowerleg_shin_armor_05
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_c_cargo_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_c_jetpack_intakes_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_elbow_armor_05
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_index_02
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_ball_01
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_l_index_03
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_clavicle
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: geo_r_lowerleg
+      parentName: Vec_Mech_RigOff(Clone)
+      position: {x: -0, y: -5.018173, z: -5.279464}
+      rotation: {x: 0.030361054, y: 0, z: -0, w: 0.999539}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
