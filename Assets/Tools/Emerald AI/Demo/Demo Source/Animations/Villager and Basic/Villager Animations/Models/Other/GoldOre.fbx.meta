@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 638e7fa3cceb8f64c99510371c250a72
-timeCreated: 1558882799
+guid: 91bc820b97a068c4596850f08a2713b6
+timeCreated: 1558862074
 licenseType: Store
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: Mat__VillagerTexture_png_002
+    2100000: unnamed
     2300000: //RootNode
     3300000: //RootNode
-    4300000: GoldOre
+    4300000: VillagerRock
     7400000: Default Take
     9500000: //RootNode
   externalObjects: {}
