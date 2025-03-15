@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - ClingPoint
+  - Key
+  - Porte
   layers:
   - Default
   - TransparentFX
